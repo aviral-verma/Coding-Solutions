@@ -1,4 +1,6 @@
-//https://practice.geeksforgeeks.org/problems/urlify-a-given-string/0
+/*https://practice.geeksforgeeks.org/problems/urlify-a-given-string/0
+Solution Author: Aviral Verma
+*/
 #include<iostream>
 #include <bits/stdc++.h>
 using namespace std;
