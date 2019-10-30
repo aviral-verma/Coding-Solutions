@@ -1,9 +1,6 @@
-/*Author: Aviral Verma. This solution is just a minor modification of merge sort: line 27 */
-#include <cmath>
-#include <cstdio>
-#include <vector>
+/*Author: Aviral Verma. This solution is just a minor modification of merge sort: line 24 */
 #include <iostream>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 void merge(int a[], int l, int m, int r, long long int &inversionCount){
@@ -24,7 +21,7 @@ void merge(int a[], int l, int m, int r, long long int &inversionCount){
         else
         {
             a[k++]=arr2[j++];
-            inversionCount+=(m-l+1-i);
+            inversionCount+=((m-l+1)-i);
         }    
     }   
     while(i<(m-l+1))
