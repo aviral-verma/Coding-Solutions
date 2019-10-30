@@ -1,4 +1,4 @@
-/*Author: Aviral Verma Just a minor modification of merge sort: line 27 */
+/*Author: Aviral Verma. This solution is just a minor modification of merge sort: line 27 */
 #include <cmath>
 #include <cstdio>
 #include <vector>
