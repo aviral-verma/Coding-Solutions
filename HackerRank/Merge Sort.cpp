@@ -1,9 +1,6 @@
 /* Author: Aviral Verma */
-#include <cmath>
-#include <cstdio>
-#include <vector>
 #include <iostream>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 void merge(int a[], int l, int m, int r){
