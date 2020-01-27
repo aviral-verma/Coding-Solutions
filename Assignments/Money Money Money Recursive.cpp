@@ -15,7 +15,7 @@ long long int power(int a, int b)
     }
     return ans;
 }
-unsigned long long int transaction(int n, int m) {
+long long int transaction(int n, int m) {
     if(m==0)
         return 1;
     if(n==1||m==1)
